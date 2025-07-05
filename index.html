@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator for Pets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-title">
+            <img src="images/logo.png" alt="PetTrackQR Logo" class="logo">
+            <h1 class="title">Pet Track QR</h1>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#working">How PetTrackQR Works</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#getstarted"><button>Get Started</button></a>
+        </nav>
+
+    </header>
+
+    <!-- home section -->
+    <section id="home">
+        <div class="home-content">
+            <div class="text">
+                <h1>Welcome to Pet Track QR</h1>
+                <h3>
+                    <p>A smart way to reunite lost pets with their owners using QR codes on collars.</p>
+                </h3>
+            </div>
+            <div id="image">
+                <img src="images/image.png" alt="Illustration" class="Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+        <h2>About PetTrackQR</h2>
+        <p>
+            For many pet owners, the fear of losing a pet is heartbreaking.
+            Sadly, thousands of lost pets remain unclaimed every year because finders can’t reach their families.
+            PetTrackQR bridges this gap with scannable QR codes attached to pet collars, giving anyone who finds a lost
+            pet immediate access to the owner's contact details and a way to bring them safely home.
+        </p>
+    </section>
+
+    <!-- how it works section -->
+    <section id="working">
+        <h1>How We Work</h1>
+
+        <div class="work-step left">
+            <div class="text">
+                <h3>Register Your Pet</h3>
+                <p>Pet owners can conveniently register their pets online by providing a few basic
+                    details about their pets along with the owner's contact information through a simple form.</p>
+            </div>
+            <div class="image">
+                <img src="images/register.png" alt="Register pet">
+            </div>
+        </div>
+
+        <div class="work-step right">
+            <div class="image">
+                <img src="images/qr-code.png" alt="QR Code generation">
+            </div>
+            <div class="text">
+                <h3>QR Code Generation</h3>
+                <p>Upon successful registration, a unique QR code is generated for each pet, which can be securely
+                    downloaded by the owner.</p>
+            </div>
+        </div>
+
+        <div class="work-step left">
+            <div class="text">
+                <h3>QR Code Attachment</h3>
+                <p>Pet owners can conveniently attach the downloaded QR code to their pet’s collar, ensuring vital
+                    identification details are easily accessible when needed.</p>
+            </div>
+            <div class="image">
+                <img src="images/attach.png" alt="QR attached to collar">
+            </div>
+        </div>
+
+        <div class="work-step right">
+            <div class="image">
+                <img src="images/scan.png" alt="QR scan lost pet">
+            </div>
+            <div class="text">
+                <h3>Lost Pet Reporting</h3>
+                <p>When the QR code is scanned, the pet’s registered information is displayed, allowing the finder to
+                    promptly notify the owner regarding the lost pet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- get started section -->
+    <section id="getstarted">
+        <br>
+        <h2>Get Started</h2>
+        <h2>Register Your Pet</h2>
+        <form action="#">
+            <div>
+                <label for="pet_name">What do you call your pet?</label> <br>
+                <input type="text" name="pet_name" id="pet_name"> <br> <br>
+
+                <label for="pet_type">Which animal is your pet?</label> <br>
+                <input type="text" name="pet_type" id="pet_type"> <br><br>
+
+                <label for="pet_breed">What is the breed of your pet?</label> <br>
+                <input type="text" name="pet_breed" id="pet_breed"> <br><br>
+
+                <label for="pet_age">How old is your pet?</label> <br>
+                <input type="number" name="pet_age" id="pet_age"> <br><br>
+
+                <label for="pet_image">Show us how your pet looks like</label> <br>
+                <input type="file" name="pet_image" id="pet_image"> <br><br>
+
+                <label for="owner_number">Enter your contact number</label> <br>
+                <input type="number" name="owner_number" id="owner_number"> <br><br>
+
+                <label for="owner_email">Enter your email address</label> <br>
+                <input type="email" name="owner_email" id="owner_email"> <br><br>
+
+                <button>Submit to generate QR Code</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- contact us section(footer) -->
+    <footer id="contact" class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>PetTrackQR</h2>
+                <p>Reuniting lost pets with their loved onwners.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#working">How PetTrackQR Works</a></li>
+                    <li><a href="#getstarted">Get Started</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>support@pettrackqr.com</p>
+                <p>(+91) 1234567890</p>
+                <p>Paw Street, India</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p> &copy; 2025 PetTrackQR. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of
+                    Service</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
