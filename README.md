@@ -62,10 +62,21 @@ A future version could implement form submission, QR code generation, and databa
     
 ---
 
+## License
+- This project is created for academic and learning purposes.
+- Feel free to fork and improve it for personal or educational use.
+
+## Developed by
+- Riya Garg
+- Computer Engineering Student
+- riyagarg1215@gmail.com
+  
 ## How to Run Locally
+
+---
 
 ```bash
 # Clone the repository
 git clone https://github.com/riya25114/pet-track-qr-website.git
 
-# Open the folder in your code editor and open index.html in your browser
+# Open the folder in your code editor and open index.html in your browser 
